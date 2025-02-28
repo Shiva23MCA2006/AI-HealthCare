@@ -1,0 +1,48 @@
+<style type="text/css">
+        .fixed-panel {
+            min-height: 400px;
+            max-height: 400px;
+            background-color: #19313c;
+            color: white;
+            overflow: auto;
+        }
+        .media-list {
+            overflow: auto;
+            clear: both;
+            display: table;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            word-break: normal;
+            line-break: strict;
+        }
+        .panel {
+            margin-bottom: 20px;
+            background-color: #eb7c7c;
+            border: 6px solid transparent;
+            border-radius: 25px;
+            -webkit-box-shadow: 0 1px 1px rgba(133, 138, 226, 0.05);
+            box-shadow: 0 1px 1px rgba(213, 130, 130, 0.05);
+        }
+        .panel-info {
+            border-color: #9acee8;
+        }
+        .panel-info>.panel-heading {
+            color: rgb(206, 119, 119);
+            background-color: #0b9be4;
+            border-color: #0e222c;
+        }
+        .panel-footer {
+            padding: 10px 15px;
+            background-color: #13394d;
+            border-top: 1px solid #183340;
+            border-bottom-right-radius: 3px;
+            border-bottom-left-radius: 3px
+        }
+        body {
+            background: rgb(96,143,149); /* Old browsers */
+            background: -moz-linear-gradient(-45deg, rgb(102, 153, 159) 0%, rgb(100, 153, 154) 9%, rgb(11, 42, 89) 52%, rgb(24, 29, 63) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, rgb(67, 117, 124) 0%,rgba(0,133,136,1) 9%,rgb(16, 48, 95) 52%,rgb(26, 30, 62) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, rgb(99, 167, 176) 0%,rgb(104, 168, 170) 9%,rgb(14, 46, 95) 52%,rgb(35, 42, 90) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#608f95', endColorstr='#1a1e3b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+        }
+        </style>
